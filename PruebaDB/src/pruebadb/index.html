@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rupia manzu</title>        
+        <link rel="stylesheet" href="css/estilo.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/formulario.css" type="text/css" media="screen"/>
+    </head>
+        <h1>Rupia Manzu</h1>
+    
+       
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><h2>=</h2></label>
+            <nav class="menu">
+            <ul>
+                <li><a href="index.html" title="Main page">Home</a></li>
+                <li><a href="info.html" title="Get to know Guanacaste">Informacion</a></li>
+                <li><a href="ubicacion.html" title="Visit us">Ubicacion</a></li>
+                <li><a href="formulario.html" title="Contacto">Resgistrate</a></li>
+                <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+                <li><a href="Creadores.html" title="Creadores">Creadores</li>
+            </ul>    
+            </nav>
+          </header>
+            <div class="main">
+                <div class="slides">
+                 <img src="img/propietarios.jpg"/>
+                 <img src="img/cabaña.jpg"/>
+                 <img src="img/cabaña2.jpg"/>
+                 <img src="img/glamping.jpg"/>
+                 <img src="img/rio.jpg"/>
+                 <img src="img/yoga.jpg"/>
+                </div>
+ 
+            </div>
+            
+            <br><br><br>
+
+    
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+            <script src="js/jquery.slides.js"></script>
+            <script >
+  
+	$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+            </script>
+            
+            
+            <div class="social">
+                <ul>
+                            <li><a href="https://www.facebook.com/pg/rupiamanzu/photos/?ref=page_internal"   class="iconface">              
+             
+                                        <img src="img/fb.png"/>            
+                        </a>
+                        
+                    </li>
+                    <li><a href="https://www.instagram.com/rupiamanzu/" target="_blank" class="iconinsta">                    
+                            
+                                <img src="img/insta.png"/>
+                              
+
+                        </a></li>
+                </ul>
+            </div>
+            
+        
+        <br><br><br><br><br>
+     <br><br><br><br><br>
+
+    
+       
+        <footer>
+            <h3>Rupia Manzu|Todos los derechos reservados&COPY;2018</h3>
+            <nav>
+                <ul>
+                     <p>follow us</p>
+                     <li><a id="logoFacebook" target="_blank"href="https://www.facebook.com/rupiamanzu/" title="go to site on facebook">Facebook</a>&nbsp;|</li>
+                     <li><a id="logoInstagram" target="_blank"href="https://www.instagram.com/rupiamanzu/" title="go to site on Instagram">Instagram</a>&nbsp;|</li>
+                     <li> <a id="logoUbicacion" target="_blank"href="https://goo.gl/maps/jAuvyjV7WwJ2" title="Go to Google Maps">google maps</a></li>
+                </ul>
+            </nav>
+        </footer>
+        
+    </body>
+</html>
