@@ -5,7 +5,8 @@
             $controller = 'alumno';
 
             // Todo esta lógica hara el papel de un FrontController
-            if(!isset($_REQUEST['c']))
+            if(!isset($_REQUEST['c']))//si existe variable c que es el controllador4
+                //sino esta establecida la varible c
             {
                 require_once "controller/$controller.controller.php";
                 $controller = ucwords($controller) . 'Controller';
